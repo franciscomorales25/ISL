@@ -1,0 +1,974 @@
+Script started on 2025-09-11 19:41:26-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="32"]
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m clear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m [K[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m dd truncate [K[K[K[K[K[K[K[K[K[K[K[Ktruncate -s 100M distrc[K[K[Kcoparamont[K[K[K[K[K[K[K[K[Ko1-[K_truncate.immg[K[Kg
+[?2004l[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo lse[K[Koeti[K[K[Ksetup -fp d
+Descargas/           disco1_truncate.img  Documentos/
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo losetup -fp disco1_truncate.img [K
+[?2004l[sudo] contraseña para frank: 
+losetup: opción incorrecta -- «p»
+Escriba 'losetup --help' para obtener más información.
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240;48;5;52m[0m[48;5;52m 1 [0m[38;5;52m[0m sudo losetup -fp disco1_truncate.img[1P disco1_truncate.imgP disco1_truncate.img
+[?2004l[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m lose t[K[Ktup -a
+[?2004l/dev/loop1: []: (/var/lib/snapd/snaps/android-studio_205.snap)
+/dev/loop29: []: (/var/lib/snapd/snaps/gnome-3-38-2004_119.snap)
+/dev/loop19: []: (/var/lib/snapd/snaps/core24_1055.snap)
+/dev/loop47: []: (/var/lib/snapd/snaps/core24_1151.snap)
+/dev/loop37: []: (/var/lib/snapd/snaps/inkscape_10555.snap)
+/dev/loop27: []: (/var/lib/snapd/snaps/gimp_531.snap)
+/dev/loop17: []: (/var/lib/snapd/snaps/core22_2111.snap)
+/dev/loop45: []: (/var/lib/snapd/snaps/snapd-desktop-integration_253.snap)
+/dev/loop8: []: (/var/lib/snapd/snaps/brave_541.snap)
+/dev/loop35: []: (/var/lib/snapd/snaps/gtk2-common-themes_13.snap)
+/dev/loop25: []: (/var/lib/snapd/snaps/firefox_6738.snap)
+/dev/loop15: []: (/var/lib/snapd/snaps/core20_2599.snap)
+/dev/loop43: []: (/var/lib/snapd/snaps/snapd_24792.snap)
+/dev/loop6: []: (/home/frank/disco1_truncate.img)
+/dev/loop33: []: (/var/lib/snapd/snaps/gnome-46-2404_125.snap)
+/dev/loop23: []: (/var/lib/snapd/snaps/ffmpeg-2404_108.snap)
+/dev/loop13: []: (/var/lib/snapd/snaps/core18_2940.snap)
+/dev/loop41: []: (/var/lib/snapd/snaps/snap-store_1113.snap)
+/dev/loop4: []: (/var/lib/snapd/snaps/code_206.snap)
+/dev/loop31: []: (/var/lib/snapd/snaps/gnome-42-2204_176.snap)
+/dev/loop21: []: (/var/lib/snapd/snaps/cups_1100.snap)
+/dev/loop11: []: (/var/lib/snapd/snaps/core_17247.snap)
+/dev/loop2: []: (/var/lib/snapd/snaps/arduino_85.snap)
+/dev/loop38: []: (/var/lib/snapd/snaps/inkscape_10823.snap)
+/dev/loop0: []: (/var/lib/snapd/snaps/android-studio_197.snap)
+/dev/loop28: []: (/var/lib/snapd/snaps/gnome-3-28-1804_198.snap)
+/dev/loop18: []: (/var/lib/snapd/snaps/blender_6559.snap)
+/dev/loop46: []: (/var/lib/snapd/snaps/snapd-desktop-integration_315.snap)
+/dev/loop9: []: (/var/lib/snapd/snaps/code_195.snap)
+/dev/loop36: []: (/var/lib/snapd/snaps/gtk-common-themes_1535.snap)
+/dev/loop26: []: (/var/lib/snapd/snaps/gimp_528.snap)
+/dev/loop16: []: (/var/lib/snapd/snaps/core22_2082.snap)
+/dev/loop44: []: (/var/lib/snapd/snaps/snapd_25202.snap)
+/dev/loop7: []: (/var/lib/snapd/snaps/brave_539.snap)
+/dev/loop34: []: (/var/lib/snapd/snaps/gnome-46-2404_90.snap)
+/dev/loop24: []: (/var/lib/snapd/snaps/firefox_6700.snap)
+/dev/loop14: []: (/var/lib/snapd/snaps/core20_2582.snap)
+/dev/loop42: []: (/var/lib/snapd/snaps/snap-store_1216.snap)
+/dev/loop5: []: (/var/lib/snapd/snaps/blender_6514.snap)
+/dev/loop32: []: (/var/lib/snapd/snaps/gnome-42-2204_202.snap)
+/dev/loop22: []: (/var/lib/snapd/snaps/ffmpeg-2404_103.snap)
+/dev/loop12: []: (/var/lib/snapd/snaps/core18_2934.snap)
+/dev/loop40: []: (/var/lib/snapd/snaps/mesa-2404_912.snap)
+/dev/loop3: []: (/var/lib/snapd/snaps/bare_5.snap)
+/dev/loop30: []: (/var/lib/snapd/snaps/gnome-3-38-2004_143.snap)
+/dev/loop20: []: (/var/lib/snapd/snaps/cups_1067.snap)
+/dev/loop10: []: (/var/lib/snapd/snaps/core_17212.snap)
+/dev/loop39: []: (/var/lib/snapd/snaps/mesa-2404_495.snap)
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m [K[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m [K[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m [K[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m mkdir mkfs.ext4 /dev/loop6
+[?2004lmkdir: se ha creado el directorio 'mkfs.ext4'
+mkdir: no se puede crear el directorio «/dev/loop6»: El archivo ya existe
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240;48;5;52m[0m[48;5;52m 1 [0m[38;5;52m[0m ls
+[?2004l[0m[01;34mCA1[0m                  [01;34mImágenes[0m             [01;34mPlantillas[0m
+[01;34mCA2[0m                  [01;34mISL[0m                  [01;34mprueba1[0m
+[01;34mDescargas[0m            ma130953.txt         [01;34mPúblico[0m
+disco1_truncate.img  micarnet.txt         repaso.txt
+[01;34mDocumentos[0m           [01;34mmkfs.ext4[0m            semana5comandos.txt
+[01;34mEscritorio[0m           [01;34mMúsica[0m               semana5.txt
+historial11.txt      par1.txt             [01;34msnap[0m
+historial.txt        parcial1pl23022.txt  [01;34mVídeos[0m
+[01;34mhome[0m                 [01;34mpermisosisl[0m
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m su[K[Kclear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m mu[K[Ksudo mk
+mkdir             mkfs.ext3         mkisofs
+mkdosfs           mkfs.ext4/        mklost+found
+mke2fs            mkfs.fat          mk_modmap
+mkfifo            mkfs.minix        mknod
+mkfontdir         mkfs.msdos        mkntfs
+mkfontscale       mkfs.ntfs         mksquashfs
+mkfs              mkfs.vfat         mkswap
+mkfs.bfs          mkhomedir_helper  mktemp
+mkfs.cramfs       mkinitramfs       mkzftree
+mkfs.ext2         mkiso             
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mkf
+mkfifo       mkfs         mkfs.ext2    mkfs.fat     mkfs.ntfs
+mkfontdir    mkfs.bfs     mkfs.ext3    mkfs.minix   mkfs.vfat
+mkfontscale  mkfs.cramfs  mkfs.ext4/   mkfs.msdos   
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mkfs.ext4 /dev/l
+log           loop2         loop31        loop43
+loop0         loop20        loop32        loop44
+loop1         loop21        loop33        loop45
+loop10        loop22        loop34        loop46
+loop11        loop23        loop35        loop47
+loop12        loop24        loop36        loop5
+loop13        loop25        loop37        loop6
+loop14        loop26        loop38        loop7
+loop15        loop27        loop39        loop8
+loop16        loop28        loop4         loop9
+loop17        loop29        loop40        loop-control
+loop18        loop3         loop41        
+loop19        loop30        loop42        
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mkfs.ext4 /dev/loop
+loop0         loop20        loop32        loop44
+loop1         loop21        loop33        loop45
+loop10        loop22        loop34        loop46
+loop11        loop23        loop35        loop47
+loop12        loop24        loop36        loop5
+loop13        loop25        loop37        loop6
+loop14        loop26        loop38        loop7
+loop15        loop27        loop39        loop8
+loop16        loop28        loop4         loop9
+loop17        loop29        loop40        loop-control
+loop18        loop3         loop41        
+loop19        loop30        loop42        
+loop2         loop31        loop43        
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mkfs.ext4 /dev/loop6
+[?2004lmke2fs 1.46.5 (30-Dec-2021)
+Descartando los bloques del dispositivo:     0/25600           hecho                            
+Se está creando un sistema de ficheros con 25600 bloques de 4k y 25600 nodos-i
+
+Reservando las tablas de grupo: 0/1   hecho                            
+Escribiendo las tablas de nodos-i: 0/1   hecho                            
+Creando el fichero de transacciones (1024 bloques): hecho
+Escribiendo superbloques y la información contable del sistema de archivos: 0/1   hecho
+
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m mkdir ^[[200~~~[K[K[1P~[1P~[1P~[1P~[2P~[C/mnt_loop6
+[?2004lmkdir: se ha creado el directorio '/home/frank/mnt_loop6'
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mou
+mount             mount.lowntfs-3g  mountpoint
+mount.fuse        mount.ntfs        mousetweaks
+mount.fuse3       mount.ntfs-3g     
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mout[Knt -t ex
+exfat,  ext2,   ext3,   ext4,   
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mount -t ext
+ext2,  ext3,  ext4,  
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mount -t ext4 /dev/lo
+log           loop2         loop31        loop43
+loop0         loop20        loop32        loop44
+loop1         loop21        loop33        loop45
+loop10        loop22        loop34        loop46
+loop11        loop23        loop35        loop47
+loop12        loop24        loop36        loop5
+loop13        loop25        loop37        loop6
+loop14        loop26        loop38        loop7
+loop15        loop27        loop39        loop8
+loop16        loop28        loop4         loop9
+loop17        loop29        loop40        loop-control
+loop18        loop3         loop41        
+loop19        loop30        loop42        
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mount -t ext4 /dev/lop[Kp[Kop
+loop0         loop20        loop32        loop44
+loop1         loop21        loop33        loop45
+loop10        loop22        loop34        loop46
+loop11        loop23        loop35        loop47
+loop12        loop24        loop36        loop5
+loop13        loop25        loop37        loop6
+loop14        loop26        loop38        loop7
+loop15        loop27        loop39        loop8
+loop16        loop28        loop4         loop9
+loop17        loop29        loop40        loop-control
+loop18        loop3         loop41        
+loop19        loop30        loop42        
+loop2         loop31        loop43        
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mount -t ext4 /dev/loop6 [7m~[27m~/m
+ma130953.txt  mkfs.ext4/    Música/       
+micarnet.txt  mnt_loop6/    
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m sudo mount -t ext4 /dev/loop6 ~/mnt_loop6/
+[?2004l[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m df -h 
+.bash_history
+.bash_logout
+.bashrc
+.bashrc.omb-backup-20231027210330
+CA1/
+CA2/
+.cache/
+.config/
+Descargas/
+disco1_truncate.img
+Documentos/
+.dotnet/
+Escritorio/
+.gnupg/
+.gphoto/
+historial11.txt
+--More--[Khistorial.txt
+home/
+Imágenes/
+ISL/
+.java/
+.local/
+.m2/
+ma130953.txt
+micarnet.txt
+mkfs.ext4/
+mnt_loop6/
+.mozilla/
+Música/
+.oh-my-bash/
+.osh-update
+par1.txt
+--More--[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240;48;5;52m[0m[48;5;52m 130 [0m[38;5;52m[0m clear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m df -h|[K 1[K| fr[K[Kgreep lpp[K[Koop6
+[?2004lOrden «greep» no encontrada. Quizá quiso decir:
+  la orden «grep» del paquete deb «grep (3.7-1build1)»
+  la orden «greed» del paquete deb «greed (4.2-1)»
+Pruebe con: sudo apt install <nombre del paquete deb>
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240;48;5;52m[0m[48;5;52m 127 [0m[38;5;52m[0m df -h | greep loop6[1P
+[?2004l/dev/[01;31m[Kloop6[m[K        90M    24K   83M   1% /home/frank/mnt_[01;31m[Kloop6[m[K
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m df -h | grep loop6[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo mount -t ext4 /dev/loop6 ~/mnt_loop6/[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pmkdir ~/mnt_loop6[C[C[C[C[C[C[C[C[C[C[C[C[Csudo mkfs.ext4 /dev/loop6[C[C[C[C[C[C[C[C[C[C[C[C[C[1@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Plosetup -asudo losetup -fP disco1_truncate.imgp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctruncate -s 100M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pscript semana5.txt[C[C[C[C[C[C[C[C[C[C[C[C[Ctruncate -s 100M disco1_truncate.img[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pscript semana5.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo unmo[K[K[K[K[K[K[K[K[Kman [K[K[K[Kman scr[K[K[Kmount 
+[?2004l[?1049h[22;0;0t[?1h=MOUNT(8)              System Administration             MOUNT(8)[m
+[m
+[1mNAME[0m[m
+       mount - mount a filesystem[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mmount[0m [[1m-h[0m|[1m-V[0m][m
+[m
+       [1mmount[0m [[1m-l[0m] [[1m-t[0m [4mfstype[24m][m
+[m
+       [1mmount[0m [1m-a[0m [[1m-fFnrsvw[0m] [[1m-t[0m [4mfstype[24m] [[1m-O[0m [4moptlist[24m][m
+[m
+       [1mmount[0m [[1m-fnrsvw[0m] [[1m-o[0m [4moptions[24m] [4mdevice[24m|[4mmountpoint[24m[m
+[m
+       [1mmount[0m [[1m-fnrsvw[0m] [[1m-t[0m [4mfstype[24m] [[1m-o[0m [4moptions[24m] [4mdevice[24m[m
+       [4mmountpoint[24m[m
+[7m Manual page mount(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mmount[0m [1m--bind[0m|[1m--rbind[0m|[1m--move[0m [4molddir[24m [4mnewdir[24m[m
+[7m Manual page mount(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mmount[0m[m
+[7m Manual page mount(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--make[0m-[[1mshared[0m|[1mslave[0m|[1mprivate[0m|[1munbindable[0m|[1mrshared[0m|[1mrslave[0m|[1mrpri[0m[m [7m Manual page mount(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mvate[0m|[1mrunbindable[0m][m
+[7m Manual page mount(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mmountpoint[24m[m
+[7m Manual page mount(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mDESCRIPTION[0m[m
+[7m Manual page mount(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       All files accessible in a Unix system are arranged in one[m
+[7m Manual page mount(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       big tree, the file hierarchy, rooted at [4m/[24m. These files[m
+[7m Manual page mount(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       can be spread out over several devices. The [1mmount[0m command[m
+[7m Manual page mount(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       serves to attach the filesystem found on some device to[m
+[7m Manual page mount(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the big file tree. Conversely, the [1mumount[0m(8) command will[m
+[7m Manual page mount(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       detach it again. The filesystem is used to control how[m
+[7m Manual page mount(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       data is stored on the device or provided in a virtual way[m
+[7m Manual page mount(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       by network or other services.[m
+[7m Manual page mount(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The standard form of the [1mmount[0m command is:[m
+[7m Manual page mount(8) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m-t[0m [4mtype[24m [4mdevice[24m [4mdir[24m[m
+[7m Manual page mount(8) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This tells the kernel to attach the filesystem found on[m
+[7m Manual page mount(8) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mdevice[24m (which is of type [4mtype[24m) at the directory [4mdir[24m. The[m
+[7m Manual page mount(8) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       option [1m-t[0m [4mtype[24m is optional. The [1mmount[0m command is usually[m
+[7m Manual page mount(8) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       able to detect a filesystem. The root permissions are[m
+[7m Manual page mount(8) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       necessary to mount a filesystem by default. See section[m
+[7m Manual page mount(8) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       "Non-superuser mounts" below for more details. The[m
+[7m Manual page mount(8) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       previous contents (if any) and owner and mode of [4mdir[24m[m
+[7m Manual page mount(8) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       become invisible, and as long as this filesystem remains[m
+[7m Manual page mount(8) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mounted, the pathname [4mdir[24m refers to the root of the[m
+[7m Manual page mount(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       filesystem on [4mdevice[24m.[m
+[7m Manual page mount(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If only the directory or the device is given, for[m
+[7m Manual page mount(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       example:[m
+[7m Manual page mount(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m/dir[0m[m
+[7m Manual page mount(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       then [1mmount[0m looks for a mountpoint (and if not found then[m
+[7m Manual page mount(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       for a device) in the [4m/etc/fstab[24m file. It’s possible to[m
+[7m Manual page mount(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       use the [1m--target[0m or [1m--source[0m options to avoid ambiguous[m
+[7m Manual page mount(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       interpretation of the given argument. For example:[m
+[7m Manual page mount(8) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       able to detect a filesystem. The root permissions are[m
+[17;1H[K[7m Manual page mount(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       option [1m-t[0m [4mtype[24m is optional. The [1mmount[0m command is usually[m
+[17;1H[K[7m Manual page mount(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mdevice[24m (which is of type [4mtype[24m) at the directory [4mdir[24m. The[m
+[17;1H[K[7m Manual page mount(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       This tells the kernel to attach the filesystem found on[m
+[17;1H[K[7m Manual page mount(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[17;1H[K[7m Manual page mount(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM          [1mmount[0m [1m-t[0m [4mtype[24m [4mdevice[24m [4mdir[24m[m
+[17;1H[K[7m Manual page mount(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[17;1H[K[7m Manual page mount(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The standard form of the [1mmount[0m command is:[m
+[17;1H[K[7m Manual page mount(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[17;1H[K[7m Manual page mount(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       by network or other services.[m
+[17;1H[K[7m Manual page mount(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       data is stored on the device or provided in a virtual way[m
+[17;1H[K[7m Manual page mount(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       detach it again. The filesystem is used to control how[m
+[17;1H[K[7m Manual page mount(8) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the big file tree. Conversely, the [1mumount[0m(8) command will[m
+[17;1H[K[7m Manual page mount(8) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       serves to attach the filesystem found on some device to[m
+[17;1H[K[7m Manual page mount(8) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       can be spread out over several devices. The [1mmount[0m command[m
+[17;1H[K[7m Manual page mount(8) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       big tree, the file hierarchy, rooted at [4m/[24m. These files[m
+[17;1H[K[7m Manual page mount(8) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       necessary to mount a filesystem by default. See section[m
+[7m Manual page mount(8) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       "Non-superuser mounts" below for more details. The[m
+[7m Manual page mount(8) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       previous contents (if any) and owner and mode of [4mdir[24m[m
+[7m Manual page mount(8) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       become invisible, and as long as this filesystem remains[m
+[7m Manual page mount(8) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mounted, the pathname [4mdir[24m refers to the root of the[m
+[7m Manual page mount(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       filesystem on [4mdevice[24m.[m
+[7m Manual page mount(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If only the directory or the device is given, for[m
+[7m Manual page mount(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       example:[m
+[7m Manual page mount(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m/dir[0m[m
+[7m Manual page mount(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       then [1mmount[0m looks for a mountpoint (and if not found then[m
+[7m Manual page mount(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       for a device) in the [4m/etc/fstab[24m file. It’s possible to[m
+[7m Manual page mount(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       use the [1m--target[0m or [1m--source[0m options to avoid ambiguous[m
+[7m Manual page mount(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       interpretation of the given argument. For example:[m
+[7m Manual page mount(8) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m--target[0m [1m/mountpoint[0m[m
+[7m Manual page mount(8) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The same filesystem may be mounted more than once, and in[m
+[7m Manual page mount(8) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       some cases (e.g., network filesystems) the same[m
+[7m Manual page mount(8) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       filesystem may be mounted on the same mountpoint multiple[m
+[7m Manual page mount(8) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       times. The [1mmount[0m command does not implement any policy to[m
+[7m Manual page mount(8) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       control this behavior. All behavior is controlled by the[m
+[7m Manual page mount(8) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       kernel and it is usually specific to the filesystem[m
+[7m Manual page mount(8) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       driver. The exception is [1m--all[0m, in this case already[m
+[7m Manual page mount(8) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mounted filesystems are ignored (see [1m--all[0m below for more[m
+[7m Manual page mount(8) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       details).[m
+[7m Manual page mount(8) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mListing[0m [1mthe[0m [1mmounts[0m[m
+[7m Manual page mount(8) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The listing mode is maintained for backward compatibility[m
+[7m Manual page mount(8) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       only.[m
+[7m Manual page mount(8) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       For more robust and customizable output use [1mfindmnt[0m(8),[m
+[7m Manual page mount(8) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mespecially[0m [1min[0m [1myour[0m [1mscripts[0m. Note that control characters[m
+[7m Manual page mount(8) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       in the mountpoint name are replaced with '?'.[m
+[7m Manual page mount(8) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following command lists all mounted filesystems (of[m
+[7m Manual page mount(8) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       type [4mtype[24m):[m
+[7m Manual page mount(8) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [[1m-l[0m] [[1m-t[0m [4mtype[24m][m
+[7m Manual page mount(8) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The option [1m-l[0m adds labels to this listing. See below.[m
+[7m Manual page mount(8) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mIndicating[0m [1mthe[0m [1mdevice[0m [1mand[0m [1mfilesystem[0m[m
+[7m Manual page mount(8) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Most devices are indicated by a filename (of a block[m
+[7m Manual page mount(8) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       special device), like [4m/dev/sda1[24m, but there are other[m
+[7m Manual page mount(8) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       possibilities. For example, in the case of an NFS mount,[m
+[7m Manual page mount(8) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mdevice[24m may look like [4mknuth.cwi.nl:/dir[24m.[m
+[7m Manual page mount(8) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The device names of disk partitions are unstable;[m
+[7m Manual page mount(8) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       hardware reconfiguration, and adding or removing a device[m
+[7m Manual page mount(8) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       can cause changes in names. This is the reason why it’s[m
+[7m Manual page mount(8) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       strongly recommended to use filesystem or partition[m
+[7m Manual page mount(8) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       identifiers like UUID or LABEL. Currently supported[m
+[7m Manual page mount(8) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       identifiers (tags):[m
+[7m Manual page mount(8) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       LABEL=[4mlabel[24m[m
+[7m Manual page mount(8) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Human readable filesystem identifier. See also [1m-L[0m.[m
+[7m Manual page mount(8) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       UUID=[4muuid[24m[m
+[7m Manual page mount(8) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Filesystem universally unique identifier. The format[m
+[7m Manual page mount(8) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           of the UUID is usually a series of hex digits[m
+[7m Manual page mount(8) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           separated by hyphens. See also [1m-U[0m.[m
+[7m Manual page mount(8) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Note that [1mmount[0m uses UUIDs as strings. The UUIDs from[m
+[7m Manual page mount(8) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the command line or from [1mfstab[0m(5) are not converted[m
+[7m Manual page mount(8) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to internal binary representation. The string[m
+[7m Manual page mount(8) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           representation of the UUID should be based on lower[m
+[7m Manual page mount(8) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           case characters.[m
+[7m Manual page mount(8) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       PARTLABEL=[4mlabel[24m[m
+[7m Manual page mount(8) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Human readable partition identifier. This identifier[m
+[7m Manual page mount(8) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           is independent on filesystem and does not change by[m
+[7m Manual page mount(8) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mkfs or mkswap operations It’s supported for example[m
+[7m Manual page mount(8) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           for GUID Partition Tables (GPT).[m
+[7m Manual page mount(8) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       PARTUUID=[4muuid[24m[m
+[7m Manual page mount(8) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Partition universally unique identifier. This[m
+[7m Manual page mount(8) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           identifier is independent on filesystem and does not[m
+[7m Manual page mount(8) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           change by mkfs or mkswap operations It’s supported[m
+[7m Manual page mount(8) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           for example for GUID Partition Tables (GPT).[m
+[7m Manual page mount(8) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ID=[4mid[24m[m
+[7m Manual page mount(8) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Hardware block device ID as generated by udevd. This[m
+[7m Manual page mount(8) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           identifier is usually based on WWN (unique storage[m
+[7m Manual page mount(8) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           identifier) and assigned by the hardware[m
+[7m Manual page mount(8) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           manufacturer. See [1mls[0m [1m/dev/disk/by-id[0m for more[m
+[7m Manual page mount(8) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           details, this directory and running udevd is[m
+[7m Manual page mount(8) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           required. This identifier is not recommended for[m
+[7m Manual page mount(8) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           generic use as the identifier is not strictly defined[m
+[7m Manual page mount(8) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and it depends on udev, udev rules and hardware.[m
+[7m Manual page mount(8) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The command [1mlsblk[0m [1m--fs[0m provides an overview of[m
+[7m Manual page mount(8) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       filesystems, LABELs and UUIDs on available block devices.[m
+[7m Manual page mount(8) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The command [1mblkid[0m [1m-p[0m [1m<device>[0m provides details about a[m
+[7m Manual page mount(8) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       filesystem on the specified device.[m
+[7m Manual page mount(8) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Don’t forget that there is no guarantee that UUIDs and[m
+[7m Manual page mount(8) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       labels are really unique, especially if you move, share[m
+[7m Manual page mount(8) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or copy the device. Use [1mlsblk[0m [1m-o[0m [1m+UUID,PARTUUID[0m to verify[m
+[7m Manual page mount(8) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       that the UUIDs are really unique in your system.[m
+[7m Manual page mount(8) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The recommended setup is to use tags (e.g. [1mUUID[0m=[4muuid[24m)[m
+[7m Manual page mount(8) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       rather than[m
+[7m Manual page mount(8) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m/dev/disk/by-{label,uuid,id,partuuid,partlabel}[24m udev[m
+[7m Manual page mount(8) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       symlinks in the [4m/etc/fstab[24m file. Tags are more readable,[m
+[7m Manual page mount(8) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       robust and portable. The [1mmount[0m(8) command internally uses[m
+[7m Manual page mount(8) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       udev symlinks, so the use of symlinks in [4m/etc/fstab[24m has[m
+[7m Manual page mount(8) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       no advantage over tags. For more details see [1mlibblkid[0m(3).[m
+[7m Manual page mount(8) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The [4mproc[24m filesystem is not associated with a special[m
+[7m Manual page mount(8) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       device, and when mounting it, an arbitrary keyword - for[m
+[7m Manual page mount(8) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       example, [4mproc[24m - can be used instead of a device[m
+[7m Manual page mount(8) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       specification. (The customary choice [4mnone[24m is less[m
+[7m Manual page mount(8) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       fortunate: the error message 'none already mounted' from[m
+[7m Manual page mount(8) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mmount[0m can be confusing.)[m
+[7m Manual page mount(8) line 143 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 144 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mThe[0m [1mfiles[0m [1m/etc/fstab,[0m [1m/etc/mtab[0m [1mand[0m [1m/proc/mounts[0m[m
+[7m Manual page mount(8) line 145 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The file [4m/etc/fstab[24m (see [1mfstab[0m(5)), may contain lines[m
+[7m Manual page mount(8) line 146 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       describing what devices are usually mounted where, using[m
+[7m Manual page mount(8) line 147 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       which options. The default location of the [1mfstab[0m(5) file[m
+[7m Manual page mount(8) line 148 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       can be overridden with the [1m--fstab[0m [4mpath[24m command-line[m
+[7m Manual page mount(8) line 149 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       option (see below for more details).[m
+[7m Manual page mount(8) line 150 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 151 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The command[m
+[7m Manual page mount(8) line 152 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 153 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m-a[0m [[1m-t[0m [4mtype[24m] [[1m-O[0m [4moptlist[24m][m
+[7m Manual page mount(8) line 154 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 155 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       (usually given in a bootscript) causes all filesystems[m
+[7m Manual page mount(8) line 156 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mentioned in [4mfstab[24m (of the proper type and/or having or[m
+[7m Manual page mount(8) line 157 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       not having the proper options) to be mounted as[m
+[7m Manual page mount(8) line 158 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       indicated, except for those whose line contains the[m
+[7m Manual page mount(8) line 159 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mnoauto[0m keyword. Adding the [1m-F[0m option will make [1mmount[0m[m
+[7m Manual page mount(8) line 160 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       fork, so that the filesystems are mounted in parallel.[m
+[7m Manual page mount(8) line 161 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 162 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       When mounting a filesystem mentioned in [4mfstab[24m or [4mmtab[24m, it[m
+[7m Manual page mount(8) line 163 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       suffices to specify on the command line only the device,[m
+[7m Manual page mount(8) line 164 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or only the mount point.[m
+[7m Manual page mount(8) line 165 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 166 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The programs [1mmount[0m and [1mumount[0m(8) traditionally maintained[m
+[7m Manual page mount(8) line 167 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       a list of currently mounted filesystems in the file[m
+[7m Manual page mount(8) line 168 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m/etc/mtab[24m. The support for regular classic [4m/etc/mtab[24m is[m
+[7m Manual page mount(8) line 169 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       completely disabled at compile time by default, because[m
+[7m Manual page mount(8) line 170 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       on current Linux systems it is better to make [4m/etc/mtab[24m a[m
+[7m Manual page mount(8) line 171 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       symlink to [4m/proc/mounts[24m instead. The regular [4mmtab[24m file[m
+[7m Manual page mount(8) line 172 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       maintained in userspace cannot reliably work with[m
+[7m Manual page mount(8) line 173 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       namespaces, containers and other advanced Linux features.[m
+[7m Manual page mount(8) line 174 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If the regular [4mmtab[24m support is enabled, then it’s[m
+[7m Manual page mount(8) line 175 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       possible to use the file as well as the symlink.[m
+[7m Manual page mount(8) line 176 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 177 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If no arguments are given to [1mmount[0m, the list of mounted[m
+[7m Manual page mount(8) line 178 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       filesystems is printed.[m
+[7m Manual page mount(8) line 179 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 180 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If you want to override mount options from [4m/etc/fstab[24m,[m
+[7m Manual page mount(8) line 181 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       you have to use the [1m-o[0m option:[m
+[7m Manual page mount(8) line 182 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 183 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [4mdevice[24m*[1m*[0m|[4mdir[24m [1m-o[0m [4moptions[24m[m
+[7m Manual page mount(8) line 184 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 185 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and then the mount options from the command line will be[m
+[7m Manual page mount(8) line 186 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       appended to the list of options from [4m/etc/fstab[24m. This[m
+[7m Manual page mount(8) line 187 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       default behaviour can be changed using the [1m--options-mode[0m[m
+[7m Manual page mount(8) line 188 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       command-line option. The usual behavior is that the last[m
+[7m Manual page mount(8) line 189 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       option wins if there are conflicting ones.[m
+[7m Manual page mount(8) line 190 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 191 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The [1mmount[0m program does not read the [4m/etc/fstab[24m file if[m
+[7m Manual page mount(8) line 192 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       both [4mdevice[24m (or LABEL, UUID, ID, PARTUUID or PARTLABEL)[m
+[7m Manual page mount(8) line 193 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and [4mdir[24m are specified. For example, to mount device [1mfoo[0m[m
+[7m Manual page mount(8) line 194 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       at [1m/dir[0m:[m
+[7m Manual page mount(8) line 195 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 196 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m/dev/foo[0m [1m/dir[0m[m
+[7m Manual page mount(8) line 197 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 198 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This default behaviour can be changed by using the[m
+[7m Manual page mount(8) line 199 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--options-source-force[0m command-line option to always read[m
+[7m Manual page mount(8) line 200 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       configuration from [4mfstab[24m. For non-root users [1mmount[0m always[m
+[7m Manual page mount(8) line 201 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       reads the [4mfstab[24m configuration.[m
+[7m Manual page mount(8) line 202 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 203 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mNon-superuser[0m [1mmounts[0m[m
+[7m Manual page mount(8) line 204 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Normally, only the superuser can mount filesystems.[m
+[7m Manual page mount(8) line 205 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       However, when [4mfstab[24m contains the [1muser[0m option on a line,[m
+[7m Manual page mount(8) line 206 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       anybody can mount the corresponding filesystem.[m
+[7m Manual page mount(8) line 207 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 208 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Thus, given a line[m
+[7m Manual page mount(8) line 209 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 210 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1m/dev/cdrom[0m [1m/cd[0m [1miso9660[0m [1mro,user,noauto,unhide[0m[m
+[7m Manual page mount(8) line 211 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 212 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       any user can mount the iso9660 filesystem found on an[m
+[7m Manual page mount(8) line 213 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       inserted CDROM using the command:[m
+[7m Manual page mount(8) line 214 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 215 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m/cd[0m[m
+[7m Manual page mount(8) line 216 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 217 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Note that [1mmount[0m is very strict about non-root users and[m
+[7m Manual page mount(8) line 218 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       all paths specified on command line are verified before[m
+[7m Manual page mount(8) line 219 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mfstab[24m is parsed or a helper program is executed. It’s[m
+[7m Manual page mount(8) line 220 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       strongly recommended to use a valid mountpoint to specify[m
+[7m Manual page mount(8) line 221 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       filesystem, otherwise [1mmount[0m may fail. For example it’s a[m
+[7m Manual page mount(8) line 222 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       bad idea to use NFS or CIFS source on command line.[m
+[7m Manual page mount(8) line 223 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 224 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Since util-linux 2.35, [1mmount[0m does not exit when user[m
+[7m Manual page mount(8) line 225 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       permissions are inadequate according to libmount’s[m
+[7m Manual page mount(8) line 226 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       internal security rules. Instead, it drops suid[m
+[7m Manual page mount(8) line 227 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       permissions and continues as regular non-root user. This[m
+[7m Manual page mount(8) line 228 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       behavior supports use-cases where root permissions are[m
+[7m Manual page mount(8) line 229 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       not necessary (e.g., fuse filesystems, user namespaces,[m
+[7m Manual page mount(8) line 230 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       etc).[m
+[7m Manual page mount(8) line 231 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 232 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       For more details, see [1mfstab[0m(5). Only the user that[m
+[7m Manual page mount(8) line 233 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mounted a filesystem can unmount it again. If any user[m
+[7m Manual page mount(8) line 234 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       should be able to unmount it, then use [1musers[0m instead of[m
+[7m Manual page mount(8) line 235 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1muser[0m in the [4mfstab[24m line. The [1mowner[0m option is similar to[m
+[7m Manual page mount(8) line 236 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the [1muser[0m option, with the restriction that the user must[m
+[7m Manual page mount(8) line 237 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       be the owner of the special file. This may be useful e.g.[m
+[7m Manual page mount(8) line 238 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       for [4m/dev/fd[24m if a login script makes the console user[m
+[7m Manual page mount(8) line 239 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       owner of this device. The [1mgroup[0m option is similar, with[m
+[7m Manual page mount(8) line 240 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the restriction that the user must be a member of the[m
+[7m Manual page mount(8) line 241 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       group of the special file.[m
+[7m Manual page mount(8) line 242 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 243 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mBind[0m [1mmount[0m [1moperation[0m[m
+[7m Manual page mount(8) line 244 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Remount part of the file hierarchy somewhere else. The[m
+[7m Manual page mount(8) line 245 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       call is:[m
+[7m Manual page mount(8) line 246 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 247 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m--bind[0m [4molddir[24m [4mnewdir[24m[m
+[7m Manual page mount(8) line 248 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 249 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or by using this [4mfstab[24m entry:[m
+[7m Manual page mount(8) line 250 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 251 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1m/[0m[4molddir[24m [1m/[0m[4mnewdir[24m [1mnone[0m [1mbind[0m[m
+[7m Manual page mount(8) line 252 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 253 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       After this call the same contents are accessible in two[m
+[7m Manual page mount(8) line 254 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       places.[m
+[7m Manual page mount(8) line 255 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 256 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       It is important to understand that "bind" does not create[m
+[7m Manual page mount(8) line 257 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       any second-class or special node in the kernel VFS. The[m
+[7m Manual page mount(8) line 258 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       "bind" is just another operation to attach a filesystem.[m
+[7m Manual page mount(8) line 259 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       There is nowhere stored information that the filesystem[m
+[7m Manual page mount(8) line 260 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       has been attached by a "bind" operation. The [4molddir[24m and[m
+[7m Manual page mount(8) line 261 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mnewdir[24m are independent and the [4molddir[24m may be unmounted.[m
+[7m Manual page mount(8) line 262 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 263 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       One can also remount a single file (on a single file).[m
+[7m Manual page mount(8) line 264 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       It’s also possible to use a bind mount to create a[m
+[7m Manual page mount(8) line 265 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mountpoint from a regular directory, for example:[m
+[7m Manual page mount(8) line 266 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 267 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m--bind[0m [1mfoo[0m [1mfoo[0m[m
+[7m Manual page mount(8) line 268 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 269 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The bind mount call attaches only (part of) a single[m
+[7m Manual page mount(8) line 270 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       filesystem, not possible submounts. The entire file[m
+[7m Manual page mount(8) line 271 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       hierarchy including submounts can be attached a second[m
+[7m Manual page mount(8) line 272 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       place by using:[m
+[7m Manual page mount(8) line 273 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 274 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m--rbind[0m [4molddir[24m [4mnewdir[24m[m
+[7m Manual page mount(8) line 275 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 276 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Note that the filesystem mount options maintained by the[m
+[7m Manual page mount(8) line 277 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       kernel will remain the same as those on the original[m
+[7m Manual page mount(8) line 278 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mount point. The userspace mount options (e.g., _netdev)[m
+[7m Manual page mount(8) line 279 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       will not be copied by [1mmount[0m and it’s necessary to[m
+[7m Manual page mount(8) line 280 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       explicitly specify the options on the [1mmount[0m command line.[m
+[7m Manual page mount(8) line 281 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 282 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Since util-linux 2.27 [1mmount[0m permits changing the mount[m
+[7m Manual page mount(8) line 283 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       options by passing the relevant options along with[m
+[7m Manual page mount(8) line 284 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--bind[0m. For example:[m
+[7m Manual page mount(8) line 285 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 286 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m-o[0m [1mbind,ro[0m [1mfoo[0m [1mfoo[0m[m
+[7m Manual page mount(8) line 287 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 288 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This feature is not supported by the Linux kernel; it is[m
+[7m Manual page mount(8) line 289 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       implemented in userspace by an additional [1mmount[0m(2)[m
+[7m Manual page mount(8) line 290 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       remounting system call. This solution is not atomic.[m
+[7m Manual page mount(8) line 291 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 292 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The alternative (classic) way to create a read-only bind[m
+[7m Manual page mount(8) line 293 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mount is to use the remount operation, for example:[m
+[7m Manual page mount(8) line 294 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 295 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m--bind[0m [4molddir[24m [4mnewdir[24m [1mmount[0m [1m-o[0m[m
+[7m Manual page mount(8) line 296 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mremount,bind,ro[0m [4molddir[24m [4mnewdir[24m[m
+[7m Manual page mount(8) line 297 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 298 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Note that a read-only bind will create a read-only[m
+[7m Manual page mount(8) line 299 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mountpoint (VFS entry), but the original filesystem[m
+[7m Manual page mount(8) line 300 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       superblock will still be writable, meaning that the[m
+[7m Manual page mount(8) line 301 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4molddir[24m will be writable, but the [4mnewdir[24m will be[m
+[7m Manual page mount(8) line 302 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       read-only.[m
+[7m Manual page mount(8) line 303 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 304 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       It’s also possible to change nosuid, nodev, noexec,[m
+[7m Manual page mount(8) line 305 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       noatime, nodiratime and relatime VFS entry flags via a[m
+[7m Manual page mount(8) line 306 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       "remount,bind" operation. The other flags (for example[m
+[7m Manual page mount(8) line 307 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       filesystem-specific flags) are silently ignored. It’s[m
+[7m Manual page mount(8) line 308 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       impossible to change mount options recursively (for[m
+[7m Manual page mount(8) line 309 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       example with [1m-o[0m [1mrbind,ro[0m).[m
+[7m Manual page mount(8) line 310 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 311 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Since util-linux 2.31, [1mmount[0m ignores the [1mbind[0m flag from[m
+[7m Manual page mount(8) line 312 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m/etc/fstab[24m on a [1mremount[0m operation (if "-o remount" is[m
+[7m Manual page mount(8) line 313 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       specified on command line). This is necessary to fully[m
+[7m Manual page mount(8) line 314 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       control mount options on remount by command line. In[m
+[7m Manual page mount(8) line 315 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       previous versions the bind flag has been always applied[m
+[7m Manual page mount(8) line 316 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and it was impossible to re-define mount options without[m
+[7m Manual page mount(8) line 317 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       interaction with the bind semantic. This [1mmount[0m behavior[m
+[7m Manual page mount(8) line 318 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       does not affect situations when "remount,bind" is[m
+[7m Manual page mount(8) line 319 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       specified in the [4m/etc/fstab[24m file.[m
+[7m Manual page mount(8) line 320 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 321 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mThe[0m [1mmove[0m [1moperation[0m[m
+[7m Manual page mount(8) line 322 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Move a [1mmounted[0m [1mtree[0m to another place (atomically). The[m
+[7m Manual page mount(8) line 323 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       call is:[m
+[7m Manual page mount(8) line 324 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 325 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K          [1mmount[0m [1m--move[0m [4molddir[24m [4mnewdir[24m[m
+[7m Manual page mount(8) line 326 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 327 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This will cause the contents which previously appeared[m
+[7m Manual page mount(8) line 328 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       under [4molddir[24m to now be accessible under [4mnewdir[24m. The[m
+[7m Manual page mount(8) line 329 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       physical location of the files is not changed. Note that[m
+[7m Manual page mount(8) line 330 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4molddir[24m has to be a mountpoint.[m
+[7m Manual page mount(8) line 331 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 332 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Note also that moving a mount residing under a shared[m
+[7m Manual page mount(8) line 333 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mount is invalid and unsupported. Use [1mfindmnt[0m [1m-o[0m[m
+[7m Manual page mount(8) line 334 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mTARGET,PROPAGATION[0m to see the current propagation flags.[m
+[7m Manual page mount(8) line 335 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 336 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mShared[0m [1msubtree[0m [1moperations[0m[m
+[7m Manual page mount(8) line 337 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Since Linux 2.6.15 it is possible to mark a mount and its[m
+[7m Manual page mount(8) line 338 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       submounts as shared, private, slave or unbindable. A[m
+[7m Manual page mount(8) line 339 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       shared mount provides the ability to create mirrors of[m
+[7m Manual page mount(8) line 340 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       that mount such that mounts and unmounts within any of[m
+[7m Manual page mount(8) line 341 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the mirrors propagate to the other mirror. A slave mount[m
+[7m Manual page mount(8) line 342 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       receives propagation from its master, but not vice versa.[m
+[7m Manual page mount(8) line 343 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A private mount carries no propagation abilities. An[m
+[7m Manual page mount(8) line 344 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       unbindable mount is a private mount which cannot be[m
+[7m Manual page mount(8) line 345 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       cloned through a bind operation. The detailed semantics[m
+[7m Manual page mount(8) line 346 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       are documented in[m
+[7m Manual page mount(8) line 347 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mDocumentation/filesystems/sharedsubtree.txt[24m file in the[m
+[7m Manual page mount(8) line 348 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       kernel source tree; see also [1mmount_namespaces[0m(7).[m
+[7m Manual page mount(8) line 349 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 350 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Supported operations are:[m
+[7m Manual page mount(8) line 351 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 352 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-shared mountpoint[m
+[7m Manual page mount(8) line 353 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-slave mountpoint[m
+[7m Manual page mount(8) line 354 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-private mountpoint[m
+[7m Manual page mount(8) line 355 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-unbindable mountpoint[m
+[7m Manual page mount(8) line 356 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 357 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following commands allow one to recursively change[m
+[7m Manual page mount(8) line 358 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the type of all the mounts under a given mountpoint.[m
+[7m Manual page mount(8) line 359 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 360 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-rshared mountpoint[m
+[7m Manual page mount(8) line 361 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-rslave mountpoint[m
+[7m Manual page mount(8) line 362 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-rprivate mountpoint[m
+[7m Manual page mount(8) line 363 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-runbindable mountpoint[m
+[7m Manual page mount(8) line 364 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 365 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mmount[0m(8) [1mdoes[0m [1mnot[0m [1mread[0m [1mfstab[0m(5) when a [1m--make-[0m* operation[m
+[7m Manual page mount(8) line 366 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       is requested. All necessary information has to be[m
+[7m Manual page mount(8) line 367 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       specified on the command line.[m
+[7m Manual page mount(8) line 368 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 369 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Note that the Linux kernel does not allow changing[m
+[7m Manual page mount(8) line 370 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       multiple propagation flags with a single [1mmount[0m(2) system[m
+[7m Manual page mount(8) line 371 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       call, and the flags cannot be mixed with other mount[m
+[7m Manual page mount(8) line 372 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       options and operations.[m
+[7m Manual page mount(8) line 373 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 374 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Since util-linux 2.23 the [1mmount[0m command can be used to do[m
+[7m Manual page mount(8) line 375 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       more propagation (topology) changes by one [1mmount[0m(8) call[m
+[7m Manual page mount(8) line 376 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and do it also together with other mount operations. The[m
+[7m Manual page mount(8) line 377 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       propagation flags are applied by additional [1mmount[0m(2)[m
+[7m Manual page mount(8) line 378 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       system calls when the preceding mount operations were[m
+[7m Manual page mount(8) line 379 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       successful. Note that this use case is not atomic. It is[m
+[7m Manual page mount(8) line 380 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       possible to specify the propagation flags in [1mfstab[0m(5) as[m
+[7m Manual page mount(8) line 381 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mount options ([1mprivate[0m, [1mslave[0m, [1mshared[0m, [1munbindable[0m,[m
+[7m Manual page mount(8) line 382 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mrprivate[0m, [1mrslave[0m, [1mrshared[0m, [1mrunbindable[0m).[m
+[7m Manual page mount(8) line 383 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 384 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       For example:[m
+[7m Manual page mount(8) line 385 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 386 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-private --make-unbindable /dev/sda1 /foo[m
+[7m Manual page mount(8) line 387 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 388 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       is the same as:[m
+[7m Manual page mount(8) line 389 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 390 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount /dev/sda1 /foo[m
+[7m Manual page mount(8) line 391 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-private /foo[m
+[7m Manual page mount(8) line 392 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mount --make-unbindable /foo[m
+[7m Manual page mount(8) line 393 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mount(8) line 394 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOMMAND-LINE[0m [1mOPTIONS[0m[m
+[7m Manual page mount(8) line 395 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m s[Kman unmount
+[?2004lNinguna entrada del manual para unmount
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240;48;5;52m[0m[48;5;52m 16 [0m[38;5;52m[0m man [K[K[K[Ksudo unmount [7m~[27m~/m
+ma130953.txt  mkfs.ext4/    Música/       
+micarnet.txt  mnt_loop6/    
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240;48;5;52m[0m[48;5;52m 16 [0m[38;5;52m[0m sudo unmount ~/mnt_loop6/
+[?2004lsudo: unmount: orden no encontrada
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240;48;5;52m[0m[48;5;52m 1 [0m[38;5;52m[0m sudo unmount ~/mnt_loop6/[1P
+[?2004l[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m clear[K[K[K[K[Ksudo umount ~/mnt_loop6/[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksdu[K[Kudo losetup -d /dec[Kv/loop6
+[?2004l[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m losetup -a
+[?2004l/dev/loop1: []: (/var/lib/snapd/snaps/android-studio_205.snap)
+/dev/loop29: []: (/var/lib/snapd/snaps/gnome-3-38-2004_119.snap)
+/dev/loop19: []: (/var/lib/snapd/snaps/core24_1055.snap)
+/dev/loop47: []: (/var/lib/snapd/snaps/core24_1151.snap)
+/dev/loop37: []: (/var/lib/snapd/snaps/inkscape_10555.snap)
+/dev/loop27: []: (/var/lib/snapd/snaps/gimp_531.snap)
+/dev/loop17: []: (/var/lib/snapd/snaps/core22_2111.snap)
+/dev/loop45: []: (/var/lib/snapd/snaps/snapd-desktop-integration_253.snap)
+/dev/loop8: []: (/var/lib/snapd/snaps/brave_541.snap)
+/dev/loop35: []: (/var/lib/snapd/snaps/gtk2-common-themes_13.snap)
+/dev/loop25: []: (/var/lib/snapd/snaps/firefox_6738.snap)
+/dev/loop15: []: (/var/lib/snapd/snaps/core20_2599.snap)
+/dev/loop43: []: (/var/lib/snapd/snaps/snapd_24792.snap)
+/dev/loop33: []: (/var/lib/snapd/snaps/gnome-46-2404_125.snap)
+/dev/loop23: []: (/var/lib/snapd/snaps/ffmpeg-2404_108.snap)
+/dev/loop13: []: (/var/lib/snapd/snaps/core18_2940.snap)
+/dev/loop41: []: (/var/lib/snapd/snaps/snap-store_1113.snap)
+/dev/loop4: []: (/var/lib/snapd/snaps/code_206.snap)
+/dev/loop31: []: (/var/lib/snapd/snaps/gnome-42-2204_176.snap)
+/dev/loop21: []: (/var/lib/snapd/snaps/cups_1100.snap)
+/dev/loop11: []: (/var/lib/snapd/snaps/core_17247.snap)
+/dev/loop2: []: (/var/lib/snapd/snaps/arduino_85.snap)
+/dev/loop38: []: (/var/lib/snapd/snaps/inkscape_10823.snap)
+/dev/loop0: []: (/var/lib/snapd/snaps/android-studio_197.snap)
+/dev/loop28: []: (/var/lib/snapd/snaps/gnome-3-28-1804_198.snap)
+/dev/loop18: []: (/var/lib/snapd/snaps/blender_6559.snap)
+/dev/loop46: []: (/var/lib/snapd/snaps/snapd-desktop-integration_315.snap)
+/dev/loop9: []: (/var/lib/snapd/snaps/code_195.snap)
+/dev/loop36: []: (/var/lib/snapd/snaps/gtk-common-themes_1535.snap)
+/dev/loop26: []: (/var/lib/snapd/snaps/gimp_528.snap)
+/dev/loop16: []: (/var/lib/snapd/snaps/core22_2082.snap)
+/dev/loop44: []: (/var/lib/snapd/snaps/snapd_25202.snap)
+/dev/loop7: []: (/var/lib/snapd/snaps/brave_539.snap)
+/dev/loop34: []: (/var/lib/snapd/snaps/gnome-46-2404_90.snap)
+/dev/loop24: []: (/var/lib/snapd/snaps/firefox_6700.snap)
+/dev/loop14: []: (/var/lib/snapd/snaps/core20_2582.snap)
+/dev/loop42: []: (/var/lib/snapd/snaps/snap-store_1216.snap)
+/dev/loop5: []: (/var/lib/snapd/snaps/blender_6514.snap)
+/dev/loop32: []: (/var/lib/snapd/snaps/gnome-42-2204_202.snap)
+/dev/loop22: []: (/var/lib/snapd/snaps/ffmpeg-2404_103.snap)
+/dev/loop12: []: (/var/lib/snapd/snaps/core18_2934.snap)
+/dev/loop40: []: (/var/lib/snapd/snaps/mesa-2404_912.snap)
+/dev/loop3: []: (/var/lib/snapd/snaps/bare_5.snap)
+/dev/loop30: []: (/var/lib/snapd/snaps/gnome-3-38-2004_143.snap)
+/dev/loop20: []: (/var/lib/snapd/snaps/cups_1067.snap)
+/dev/loop10: []: (/var/lib/snapd/snaps/core_17212.snap)
+/dev/loop39: []: (/var/lib/snapd/snaps/mesa-2404_495.snap)
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m [K[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m [K[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m clear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m [K[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m ls
+[?2004l[0m[01;34mCA1[0m                  [01;34mImágenes[0m             [01;34mpermisosisl[0m
+[01;34mCA2[0m                  [01;34mISL[0m                  [01;34mPlantillas[0m
+[01;34mDescargas[0m            ma130953.txt         [01;34mprueba1[0m
+disco1_truncate.img  micarnet.txt         [01;34mPúblico[0m
+[01;34mDocumentos[0m           [01;34mmkfs.ext4[0m            repaso.txt
+[01;34mEscritorio[0m           [01;34mmnt_loop6[0m            semana5comandos.txt
+historial11.txt      [01;34mMúsica[0m               semana5.txt
+historial.txt        par1.txt             [01;34msnap[0m
+[01;34mhome[0m                 parcial1pl23022.txt  [01;34mVídeos[0m
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m mkdi[Kdir [K[K[K[Kir -p [7m~[27m~/laboratorio_raid0 [K
+[?2004lmkdir: se ha creado el directorio '/home/frank/laboratorio_raid0'
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m ls
+[?2004l[0m[01;34mCA1[0m                  [01;34mISL[0m                  [01;34mPlantillas[0m
+[01;34mCA2[0m                  [01;34mlaboratorio_raid0[0m    [01;34mprueba1[0m
+[01;34mDescargas[0m            ma130953.txt         [01;34mPúblico[0m
+disco1_truncate.img  micarnet.txt         repaso.txt
+[01;34mDocumentos[0m           [01;34mmkfs.ext4[0m            semana5comandos.txt
+[01;34mEscritorio[0m           [01;34mmnt_loop6[0m            semana5.txt
+historial11.txt      [01;34mMúsica[0m               [01;34msnap[0m
+historial.txt        par1.txt             [01;34mVídeos[0m
+[01;34mhome[0m                 parcial1pl23022.txt
+[01;34mImágenes[0m             [01;34mpermisosisl[0m
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m cd laboratorio_raid0/
+[?2004l/home/frank/laboratorio_raid0
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m l[Kclear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m sudo apt-get install mdadm[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd laboratorio_raid0/mkdir -p ~/laboratorio_raid0[18Plosetup -amkdir -p ~/laboratorio_raid0[7Pcd laboratorio_raid0/mkdir -p ~/laboratorio_raid0[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+[?2004l[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m ls
+[?2004l[0m[01;34mCA1[0m                  [01;34mISL[0m                  [01;34mPlantillas[0m
+[01;34mCA2[0m                  [01;34mlaboratorio_raid0[0m    [01;34mprueba1[0m
+[01;34mDescargas[0m            ma130953.txt         [01;34mPúblico[0m
+disco1_truncate.img  micarnet.txt         repaso.txt
+[01;34mDocumentos[0m           [01;34mmkfs.ext4[0m            semana5comandos.txt
+[01;34mEscritorio[0m           [01;34mmnt_loop6[0m            semana5.txt
+historial11.txt      [01;34mMúsica[0m               [01;34msnap[0m
+historial.txt        par1.txt             [01;34mVídeos[0m
+[01;34mhome[0m                 parcial1pl23022.txt
+[01;34mImágenes[0m             [01;34mpermisosisl[0m
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m cd ..laboratorio_raid0/[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p ~/laboratorio_raid0[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls[K[Kclear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m ls
+[?2004l[0m[01;34mCA1[0m                  [01;34mISL[0m                  [01;34mPlantillas[0m
+[01;34mCA2[0m                  [01;34mlaboratorio_raid0[0m    [01;34mprueba1[0m
+[01;34mDescargas[0m            ma130953.txt         [01;34mPúblico[0m
+disco1_truncate.img  micarnet.txt         repaso.txt
+[01;34mDocumentos[0m           [01;34mmkfs.ext4[0m            semana5comandos.txt
+[01;34mEscritorio[0m           [01;34mmnt_loop6[0m            semana5.txt
+historial11.txt      [01;34mMúsica[0m               [01;34msnap[0m
+historial.txt        par1.txt             [01;34mVídeos[0m
+[01;34mhome[0m                 parcial1pl23022.txt
+[01;34mImágenes[0m             [01;34mpermisosisl[0m
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~ [0m[38;5;240m[0m de[Kc[Kcd[K[K[Kcd laboratorio_raid0/
+[?2004l/home/frank/laboratorio_raid0
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m ls
+[?2004l[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m clear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m cd laboratorio_raid0/[Ksudp[Ko apt-get install mdadm lvm2 [A
+[?2004l[sudo] contraseña para frank: 
+Leyendo lista de paquetes... 0%Leyendo lista de paquetes... 100%Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias... 0%Creando árbol de dependencias... 0%Creando árbol de dependencias... 50%Creando árbol de dependencias... 50%Creando árbol de dependencias... Hecho
+Leyendo la información de estado... 0%Leyendo la información de estado... 0%Leyendo la información de estado... Hecho
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  libnvidia-cfg1-525 libnvidia-common-525
+  libnvidia-compute-525 libnvidia-compute-525:i386
+  libnvidia-decode-525 libnvidia-decode-525:i386
+  libnvidia-egl-wayland1 libnvidia-encode-525
+  libnvidia-encode-525:i386 libnvidia-extra-525
+  libnvidia-fbc1-525 libnvidia-fbc1-525:i386
+  libnvidia-gl-525 libnvidia-gl-525:i386 libwpe-1.0-1
+  libwpebackend-fdo-1.0-1 nvidia-compute-utils-525
+  nvidia-utils-525 xserver-xorg-video-nvidia-525
+Utilice «sudo apt autoremove» para eliminarlos.
+Se instalarán los siguientes paquetes adicionales:
+  dmeventd finalrd libaio1 libdevmapper-event1.02.1
+  liblvm2cmd2.03 thin-provisioning-tools
+Paquetes sugeridos:
+  default-mta | mail-transport-agent dracut-core
+Se instalarán los siguientes paquetes NUEVOS:
+  dmeventd finalrd libaio1 libdevmapper-event1.02.1
+  liblvm2cmd2.03 lvm2 mdadm thin-provisioning-tools
+0 actualizados, 8 nuevos se instalarán, 0 para eliminar y 35 no actualizados.
+Se necesita descargar 2,867 kB de archivos.
+Se utilizarán 10.2 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+0% [Trabajando]0% [Conectando a sv.archive.ubuntu.com]                                       Des:1 http://sv.archive.ubuntu.com/ubuntu jammy/main amd64 libaio1 amd64 0.3.112-13build1 [7,176 B]
+                                       0% [1 libaio1 1,159 B/7,176 B 16%]                                  3% [Trabajando]               Des:2 http://sv.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdevmapper-event1.02.1 amd64 2:1.02.175-2.1ubuntu5 [12.7 kB]
+3% [2 libdevmapper-event1.02.1 5,502 B/12.7 kB 43%]                                                   6% [Esperando las cabeceras]                            Des:3 http://sv.archive.ubuntu.com/ubuntu jammy-updates/main amd64 liblvm2cmd2.03 amd64 2.03.11-2.1ubuntu5 [757 kB]
+6% [3 liblvm2cmd2.03 1,206 B/757 kB 0%]                                       29% [Esperando las cabeceras]                             Des:4 http://sv.archive.ubuntu.com/ubuntu jammy-updates/main amd64 dmeventd amd64 2:1.02.175-2.1ubuntu5 [38.2 kB]
+29% [4 dmeventd 6,868 B/38.2 kB 18%]                                    33% [Trabajando]                Des:5 http://sv.archive.ubuntu.com/ubuntu jammy-updates/main amd64 lvm2 amd64 2.03.11-2.1ubuntu5 [1,154 kB]
+33% [5 lvm2 4,620 B/1,154 kB 0%]                                67% [Esperando las cabeceras]                             Des:6 http://sv.archive.ubuntu.com/ubuntu jammy/main amd64 finalrd all 9build1 [7,306 B]
+68% [6 finalrd 7,306 B/7,306 B 100%]                                    70% [Trabajando]                Des:7 http://sv.archive.ubuntu.com/ubuntu jammy-updates/main amd64 mdadm amd64 4.2-0ubuntu2 [464 kB]
+70% [7 mdadm 2,290 B/464 kB 0%]                               86% [Trabajando]                Des:8 http://sv.archive.ubuntu.com/ubuntu jammy/main amd64 thin-provisioning-tools amd64 0.9.0-2ubuntu1 [426 kB]
+87% [8 thin-provisioning-tools 35.5 kB/426 kB 8%]                                                 100% [Trabajando]                 Descargados 2,867 kB en 1s (2,194 kB/s)
+Preconfigurando paquetes ...
+Seleccionando el paquete libaio1:amd64 previamente no seleccionado.
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 322733 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-libaio1_0.3.112-13build1_amd64.deb ...
+Desempaquetando libaio1:amd64 (0.3.112-13build1) ...
+Seleccionando el paquete libdevmapper-event1.02.1:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../1-libdevmapper-event1.02.1_2%3a1.02.175-2.1ubuntu5_amd64.deb ...
+Desempaquetando libdevmapper-event1.02.1:amd64 (2:1.02.175-2.1ubuntu5) ...
+Seleccionando el paquete liblvm2cmd2.03:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../2-liblvm2cmd2.03_2.03.11-2.1ubuntu5_amd64.deb ...
+Desempaquetando liblvm2cmd2.03:amd64 (2.03.11-2.1ubuntu5) ...
+Seleccionando el paquete dmeventd previamente no seleccionado.
+Preparando para desempaquetar .../3-dmeventd_2%3a1.02.175-2.1ubuntu5_amd64.deb ...
+Desempaquetando dmeventd (2:1.02.175-2.1ubuntu5) ...
+Seleccionando el paquete lvm2 previamente no seleccionado.
+Preparando para desempaquetar .../4-lvm2_2.03.11-2.1ubuntu5_amd64.deb ...
+Desempaquetando lvm2 (2.03.11-2.1ubuntu5) ...
+Seleccionando el paquete finalrd previamente no seleccionado.
+Preparando para desempaquetar .../5-finalrd_9build1_all.deb ...
+Desempaquetando finalrd (9build1) ...
+Seleccionando el paquete mdadm previamente no seleccionado.
+Preparando para desempaquetar .../6-mdadm_4.2-0ubuntu2_amd64.deb ...
+Desempaquetando mdadm (4.2-0ubuntu2) ...
+Seleccionando el paquete thin-provisioning-tools previamente no seleccionado.
+Preparando para desempaquetar .../7-thin-provisioning-tools_0.9.0-2ubuntu1_amd64.deb ...
+Desempaquetando thin-provisioning-tools (0.9.0-2ubuntu1) ...
+Configurando libdevmapper-event1.02.1:amd64 (2:1.02.175-2.1ubuntu5) ...
+Configurando finalrd (9build1) ...
+Created symlink /etc/systemd/system/sysinit.target.wants/finalrd.service → /lib/systemd/system/finalrd.service.
+Configurando libaio1:amd64 (0.3.112-13build1) ...
+Configurando mdadm (4.2-0ubuntu2) ...
+Generating mdadm.conf... done.
+update-initramfs: deferring update (trigger activated)
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-79-generic
+Found initrd image: /boot/initrd.img-6.8.0-79-generic
+Found linux image: /boot/vmlinuz-6.8.0-78-generic
+Found initrd image: /boot/initrd.img-6.8.0-78-generic
+Found linux image: /boot/vmlinuz-6.8.0-45-generic
+Found initrd image: /boot/initrd.img-6.8.0-45-generic
+Memtest86+ needs a 16-bit boot, that is not available on EFI, exiting
+Warning: os-prober will be executed to detect other bootable partitions.
+Its output will be used to detect bootable binaries on them and create new boot entries.
+Found Windows Boot Manager on /dev/nvme0n1p1@/EFI/Microsoft/Boot/bootmgfw.efi
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Created symlink /etc/systemd/system/mdmonitor.service.wants/mdcheck_continue.timer → /lib/systemd/system/mdcheck_continue.timer.
+Created symlink /etc/systemd/system/mdmonitor.service.wants/mdcheck_start.timer → /lib/systemd/system/mdcheck_start.timer.
+Created symlink /etc/systemd/system/mdmonitor.service.wants/mdmonitor-oneshot.timer → /lib/systemd/system/mdmonitor-oneshot.timer.
+Configurando thin-provisioning-tools (0.9.0-2ubuntu1) ...
+Configurando liblvm2cmd2.03:amd64 (2.03.11-2.1ubuntu5) ...
+Configurando dmeventd (2:1.02.175-2.1ubuntu5) ...
+Created symlink /etc/systemd/system/sockets.target.wants/dm-event.socket → /lib/systemd/system/dm-event.socket.
+dm-event.service is a disabled or a static unit, not starting it.
+Configurando lvm2 (2.03.11-2.1ubuntu5) ...
+update-initramfs: deferring update (trigger activated)
+Created symlink /etc/systemd/system/sysinit.target.wants/blk-availability.service → /lib/systemd/system/blk-availability.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/lvm2-monitor.service → /lib/systemd/system/lvm2-monitor.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/lvm2-lvmpolld.socket → /lib/systemd/system/lvm2-lvmpolld.socket.
+Procesando disparadores para initramfs-tools (0.140ubuntu13.5) ...
+update-initramfs: Generating /boot/initrd.img-6.8.0-79-generic
+I: The initramfs will attempt to resume from /dev/nvme1n1p2
+I: (UUID=34fd2c59-8603-4ec7-b1d5-2bcadc528b1f)
+I: Set the RESUME variable to override this.
+Procesando disparadores para libc-bin (2.35-0ubuntu3.10) ...
+Procesando disparadores para man-db (2.10.2-1) ...
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m sudo apt-get install mdadm lvm2 ^C[?2004l[?2004h[?2004l
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240;48;5;52m[0m[48;5;52m 130 [0m[38;5;52m[0m clear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m mdadm --ver [Ksion
+[?2004lmdadm - v4.2 - 2021-12-30
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m mdadm --version[C[1P --version[1P --version[1P --version[1P --version[1P --versionl --versionv --versionm --version2 --version
+[?2004lOrden «lvm2» no encontrada. Quizá quiso decir:
+  la orden «lvm» del paquete deb «lvm2 (2.03.11-2.1ubuntu5)»
+Pruebe con: sudo apt install <nombre del paquete deb>
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240;48;5;52m[0m[48;5;52m 127 [0m[38;5;52m[0m lvm2 --version[1P --version
+[?2004l  Specify options after a command: lvm [command] [options].
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240;48;5;52m[0m[48;5;52m 3 [0m[38;5;52m[0m lvm --version[1Pversion[1Pversion
+[?2004l  LVM version:     2.03.11(2) (2021-01-08)
+  Library version: 1.02.175 (2021-01-08)
+/dev/mapper/control: open failed: Permission denied
+Failure to communicate with kernel device-mapper driver.
+Incompatible libdevmapper 1.02.175 (2021-01-08) and kernel driver (unknown version).
+  Configuration:   ./configure --build=x86_64-linux-gnu --prefix=/usr --includedir=${prefix}/include --mandir=${prefix}/share/man --infodir=${prefix}/share/info --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir=${prefix}/lib/x86_64-linux-gnu --runstatedir=/run --disable-maintainer-mode --disable-dependency-tracking --libdir=/lib/x86_64-linux-gnu --sbindir=/sbin --with-usrlibdir=/usr/lib/x86_64-linux-gnu --with-optimisation=-O2 --with-cache=internal --with-device-uid=0 --with-device-gid=6 --with-device-mode=0660 --with-default-pid-dir=/run --with-default-run-dir=/run/lvm --with-default-locking-dir=/run/lock/lvm --with-thin=internal --with-thin-check=/usr/sbin/thin_check --with-thin-dump=/usr/sbin/thin_dump --with-thin-repair=/usr/sbin/thin_repair --with-udev-prefix=/ --enable-applib --enable-blkid_wiping --enable-cmdlib --enable-dmeventd --enable-editline --enable-lvmlockd-dlm --enable-lvmlockd-sanlock --enable-lvmpolld --enable-notify-dbus --enable-pkgconfig --enable-udev_rules --enable-udev_sync --disable-readline
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m clear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m md[K[Kl[Kmkdir -p discos,scripts [K,logs,mo ntajes
+[?2004lmkdir: se ha creado el directorio 'discos,scripts,logs,montajes'
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m ls
+[?2004l[0m[01;34mdiscos,scripts,logs,montajes[0m
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m rm -
+--dir               --no-preserve-root  --verbose
+--force             --one-file-system   --version
+--help              --preserve-root     
+--interactive       --recursive         
+[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m rm --dir [K[K[K[K[Kr discos,scripts,logs,montajes/
+[?2004l[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m ls
+[?2004l[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m mkdir -p discos
+[?2004lmkdir: se ha creado el directorio 'discos'
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m mkdir -p discos[C[C[K[K[K[K[K[Kscripts
+[?2004lmkdir: se ha creado el directorio 'scripts'
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m mkdir -p scripts[K[K[K[K[K[K[K[K logs
+[?2004lmkdir: se ha creado el directorio 'logs'
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m mkdir -p logs[K[K[K[Kmontajes
+[?2004lmkdir: se ha creado el directorio 'montajes'
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m clear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m ls
+[?2004l[0m[01;34mdiscos[0m  [01;34mlogs[0m  [01;34mmontajes[0m  [01;34mscripts[0m
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m cd di[K[K[K[K[Kpwd //[K[K[K{{[K[K /[K[7m&&[27m&& tree -L
+[?2004l/home/frank/laboratorio_raid0
+tree: Missing argument to -L option.
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240;48;5;52m[0m[48;5;52m 1 [0m[38;5;52m[0m pwd && tree -L 1
+[?2004l/home/frank/laboratorio_raid0
+[01;34m.[0m
+├── [01;34mdiscos[0m
+├── [01;34mlogs[0m
+├── [01;34mmontajes[0m
+└── [01;34mscripts[0m
+
+4 directories, 0 files
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m pwd && tree -L 1 !![K[K11[K[K|| ls -la
+[?2004l/home/frank/laboratorio_raid0
+[01;34m.[0m
+├── [01;34mdiscos[0m
+├── [01;34mlogs[0m
+├── [01;34mmontajes[0m
+└── [01;34mscripts[0m
+
+4 directories, 0 files
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m clear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0 [0m[38;5;240m[0m dd [K[K[Kcd discos/
+[?2004l/home/frank/laboratorio_raid0/discos
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if?[K¡[K¸[K[7m=/[27m=/ =/[C[Cdev [K/zero of^V[K[K^?[K[K[7m=/dev/z[27m[7me[27m[7mro[27m[K[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if =/dev/zero [7m=/dev/z[27m[7me[27m[7mro[27m[K[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if =/dev/zero [7m=/dev/ze[27m[7mr[27m[7mo[27m[K[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if =/dev/zero [7m=/dev/zer[27m[7mo[27m[K[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if =/dev/zero [7m=/dev/zero[27m [K[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if =/dev/zero [7m=/dev/zero[27m[K[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if =/dev/zero [7m=/dev/zero[27m[K[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if =/dev/zero [7m=/dev/zero[27m[K[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if =/dev/zero [7m=/dev/zero[27m=/dev/zeroo=/dev/zerof=/dev/zero =/dev/zero[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[Kd1.i,[Kmg bs[7m=[27m[7m/[27m[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C=/[K1M count [K[7m=/[27m=/[K200 status [K[7m=/[27m=/[Kprogress
+[?2004ldd: operando no reconocido «if»
+Pruebe 'dd --help' para más información.
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240;48;5;52m[0m[48;5;52m 1 [0m[38;5;52m[0m dd if =/dev/zero of =d1.img bs=1M count=200 status=progress[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C=/dev/zero of =d1.img b[1P[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240;48;5;52m[0m[48;5;52m 1 [0m[38;5;52m[0m [C[C[C[C[C
+
+[?2004ldd: operando no reconocido «of»
+Pruebe 'dd --help' para más información.
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240;48;5;52m[0m[48;5;52m 1 [0m[38;5;52m[0m dd if=/dev/zero of =d1.img bs=1M count=200 status=progress[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C=d1.img bs[1P[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240;48;5;52m[0m[48;5;52m 1 [0m[38;5;52m[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l200+0 registros leídos
+200+0 registros escritos
+209715200 bytes (210 MB, 200 MiB) copied, 0.0657478 s, 3.2 GB/s
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m [7mdd if=/dev/zero of=d1.img bs=1M[27m[7m [27m[7mcount=200 status=progress[27m[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if=/dev/zero of=d1.img bs=1M count=200 status=progress[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.img bs=1M c[1P[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.img bs=1M [1@c[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l200+0 registros leídos
+200+0 registros escritos
+209715200 bytes (210 MB, 200 MiB) copied, 0.0607174 s, 3.5 GB/s
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m ls
+[?2004ld1.img  d2.img
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m ls -lk
+[?2004ltotal 409600
+-rw-rw-r-- 1 frank frank 209715200 sep 11 20:29 d1.img
+-rw-rw-r-- 1 frank frank 209715200 sep 11 20:31 d2.img
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m ls -h
+[?2004ld1.img  d2.img
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m clear
+[?2004l[H[2J[3J[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m [7mdd if=/dev/zero of=d1.img bs=1M[27m[7m [27m[7mcount=200 status=progress[27m[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if=/dev/zero of=d1.img bs=1M count=200 status=progress[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.img bs=1M c[1P[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3.img bs=1M [1@c[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l200+0 registros leídos
+200+0 registros escritos
+209715200 bytes (210 MB, 200 MiB) copied, 0.0786611 s, 2.7 GB/s
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m dd if=/dev/zero of=d3.img bs=1M count=200 status=progress[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.img bs=1M c[1P[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4.img bs=1M [1@c[A[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l200+0 registros leídos
+200+0 registros escritos
+209715200 bytes (210 MB, 200 MiB) copied, 0.0648203 s, 3.2 GB/s
+[?2004h[48;5;32m frank [0m[38;5;32;48;5;240m[0m[48;5;240m ~/laboratorio_raid0/discos [0m[38;5;240m[0m cl[K[Kexit
+[?2004lexit
+
+Script done on 2025-09-12 08:44:11-06:00 [COMMAND_EXIT_CODE="0"]
